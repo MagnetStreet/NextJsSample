@@ -6,11 +6,11 @@ export interface SideMenuState {
   // Other properties and functions in your state
 }
 
-const useSideMenuStore = create<SideMenuState>((set) => ({
+const useSampleStore = create<SideMenuState>((set) => ({
   activeLayoutName: 'Layout',
 
   setActiveLayoutName: (newLayoutName: string) =>
     set({ activeLayoutName: newLayoutName }),
 }));
 
-export default useSideMenuStore;
+export default useSampleStore;
