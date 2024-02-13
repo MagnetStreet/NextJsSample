@@ -7,7 +7,7 @@ const ReactExamplePage: React.FC = () => {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       {/* <LifeCycleComponent /> */}
-      {/* <StateComponent init={0} /> */}
+      {/* <StateComponent init={2} name='alonso' /> */}
       {/* <HooksComponent /> */}
       {/* <CustomHooks /> */}
       <CounterParent />

@@ -4,6 +4,7 @@ const HooksComponent: React.FC = () => {
   /* This is the new way of controlling state and effects using Hooks */
 
   const [count, setCount] = useState<number>(0);
+  const [name, setName] = useState<string>('');
   const [showMessage, setShowMessage] = useState<boolean>(false);
   const [fetchedData, setFetchedData] = useState<any>(null);
 

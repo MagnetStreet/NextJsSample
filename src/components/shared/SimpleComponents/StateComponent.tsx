@@ -6,6 +6,7 @@ interface CounterState {
 
 interface CounterProps {
   init: number;
+  name: string;
 }
 
 class StateComponent extends Component<CounterProps, CounterState> {

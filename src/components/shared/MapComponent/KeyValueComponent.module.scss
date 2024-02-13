@@ -1,0 +1,16 @@
+.keyValueContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.key {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.value {
+  color: #333;
+}
